@@ -10,7 +10,7 @@ function cargarPagina() {
   setTimeout(function() {
     generadorBoton();
     cargarPagina();
-  }, 1000);
+  }, 2000);
 }
 
 function generadorBoton() {
