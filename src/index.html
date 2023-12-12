@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Generador de cartas aleatorio</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -13,16 +13,16 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container text-center">
+      <h1 class="mt-5">NAIPE / BARAJA / MAZO / DECK / CARTAS</h1>
+      <button type="button" class="btn btn-danger" onclick="generadorBoton()">
+        GENERAR CARTA ALEATORIA
+      </button>
+
+      <div class="card">
+        <div id="simboloTop" class="spade diamond heart club">X</div>
+        <div id="numero">A</div>
+        <div id="simboloBottom" class="spade diamond heart club">X</div>
       </div>
     </div>
   </body>
